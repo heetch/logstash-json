@@ -4,7 +4,7 @@ defmodule LogstashJson.Mixfile do
   def project do
     [app: :logstash_json,
      version: "0.4.0",
-     elixir: "~> 1.4",
+     elixir: "~> 1.4.1",
      description: description(),
      package: package(),
      build_embedded: Mix.env == :prod,
